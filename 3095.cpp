@@ -1,6 +1,7 @@
 /* 3095번 플러스의 개수
  * https://www.acmicpc.net/problem/3095
  * 분류: 행렬
+ * 상태: 실패
  */
 
 #include <stdio.h>
