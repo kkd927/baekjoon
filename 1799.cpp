@@ -15,13 +15,15 @@ bool check(int x, int y)
 {
 	for (int i = 0; i < 4; i++)
 	{
-		while (x >= 0 && y >= 0 && x < N && y < N)
+		int a = x;
+		int b = y;
+		while (a >= 0 && b >= 0 && a < N && b < N)
 		{
-			if (arr[x][y] == -1)
+			if (arr[a][b] == -1)
 				return false;
 
-			x += dir[i][0];
-			y += dir[i][1];
+			a += dir[i][0];
+			b += dir[i][1];
 		}
 	}
 
