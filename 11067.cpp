@@ -134,8 +134,6 @@ int main()
 			scanf("%d", &tmp);
 			printf("%d %d\n", result[tmp - 1][0], result[tmp - 1][1]);
 		}
-
-		
 	}
 
 	return 0;
